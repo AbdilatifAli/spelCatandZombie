@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="thegame">
+        <img id="currentImage" class="current-image">
+        <div id="controls" class="controls">
+            <button id="westBtn" class="direction-btn" onclick="playerPositionWest()">W</button>
+            <button id="northBtn" class="direction-btn" onclick="playerPositionNorth()">N</button>
+            <button id="southBtn" class="direction-btn" onclick="playerPositionSouth()">S</button>
+            <button id="eastBtn" class="direction-btn" onclick="playerPositionEast()">E</button>
+        </div>
+        <button id="startbutton" onclick="startgame()">Starta Spelet</button>
+        <div id="catmessage" class="catmessage"></div>
+        <div id="zombiemessage" class="zombiemessage"></div>
+        <div id="playerscore" class="playerscore">score: <span id="scorevalue">0</span></div>
+
+        <div id="spelplanen"></div>
+        <div id="Quotes" class="Quotes"></div>
+    </div>
+
+
+
+
+    <script src="script/script.js"></script>
+</body>
+
+</html>
